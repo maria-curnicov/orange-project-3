@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>My portofolio</title>
+  </head>
+  <body>
+    <header>
+      <h1>My portofolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#home"></a> Home</li>
+          <li><a href="#skills"></a> Skills</li>
+          <li><a href="#projects"></a> Projects</li>
+          <li><a href="#contact"></a> Contact</li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <h2>Home</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+          nesciunt illo quibusdam aut porro at soluta, esse quo facere placeat
+          minus tempore nostrum excepturi, alias aliquam fugit, quam quasi ullam
+          expedita. Sunt necessitatibus quam ab eum et unde aliquam!
+        </p>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+          earum asperiores repellendus illum maxime tempora iste distinctio,
+          dolor quaerat quam?
+        </p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS</li>
+          <li>React</li>
+        </ul>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+          earum asperiores repellendus illum maxime tempora iste distinctio,
+          dolor quaerat quam?
+        </p>
+        <ul>
+          <li>Tarile vizitate</li>
+          <li>Retele</li>
+          <li>Portofolio</li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <form>
+          <div>
+            <label for="firstname">Nume</label>
+            <input
+              id="firstname"
+              type="text"
+              name="firstname"
+              placeholder="Nume"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="lastname">Prenume</label>
+            <input
+              id="lastname"
+              type="text"
+              name="lastname"
+              placeholder="Prenume"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="number">Numarul de telefon</label>
+            <input
+              id="number"
+              type="tex"
+              name="number"
+              placeholder="Numarul de telefon"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="email">Email</label>
+            <input
+              id="email"
+              type="email"
+              name="number"
+              placeholder="Email"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="reason">Motivul de contact</label>
+            <select id="reason" name="reason" required>
+              <option value="">Selectati optiunea</option>
+              <option value="interviw">Interviu de angajare</option>
+              <option value="offer">Angajare</option>
+            </select>
+          </div>
+          <input type="submit" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <h3>MC company</h3>
+    </footer>
+  </body>
+</html>
