@@ -11,23 +11,25 @@
     />
     <title>Pizza</title>
   </head>
-  <body>
-    <header>
+  <body class="recipe-body">
+    <header class="recipe-header">
       <div class="container-navbar">
         <nav>
           <ul class="navbar">
-            <li class="active"><a href="#">Home</a></li>
+            <li class="active"><a class="recipe-link" href="#">Home</a></li>
             <li>
-              <a href="nutritional.html">Nutritional value</a>
+              <a class="recipe-link" href="nutritional.html"
+                >Nutritional value</a
+              >
             </li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Reviws</a></li>
+            <li><a class="recipe-link" href="#">Products</a></li>
+            <li><a class="recipe-link" href="#">Reviws</a></li>
             <li><i class="fa-solid fa-user"></i>Log In</li>
           </ul>
         </nav>
       </div>
     </header>
-    <section class="section-1">
+    <section class="recipe-section-1">
       <div class="container">
         <div class="title">
           <h1 class="title1-section1">Pizza</h1>
@@ -116,20 +118,34 @@
       <div class="container">
         <div class="form">
           <h2>Contact us</h2>
-          <form>
+          <form class="recipe-form">
             <div class="fname">
-              <label for="fname">First name:</label>
-              <input type="text" id="fname" name="fname" required />
+              <label class="form-label" for="fname">First name:</label>
+              <input
+                class="form-input"
+                type="text"
+                id="fname"
+                name="fname"
+                required
+              />
             </div>
 
             <div class="lname">
-              <label for="lname">Last name:</label>
-              <input type="text" id="lname" name="lname" required />
+              <label class="form-label" for="lname">Last name:</label>
+              <input
+                class="form-input"
+                type="text"
+                id="lname"
+                name="lname"
+                required
+              />
             </div>
 
             <div class="comment">
-              <label for="comment">Leave a message here</label>
-              <textarea id="comment" name="comment">
+              <label class="form-label" for="comment"
+                >Leave a message here</label
+              >
+              <textarea class="form-textarea" id="comment" name="comment">
   Enter a text here...
             </textarea
               >
